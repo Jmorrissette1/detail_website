@@ -9,8 +9,10 @@ p{
 
 .brand_text{
     color:white;
+    font: 11px/13px Arial, Helvetica, sans-serif;
+    padding-left: 10px;
 }
-.header_backround{
+.header_background{
     color: white;
     background-color: black;
 }
