@@ -66,56 +66,91 @@
           <li class="nav-item class=nav_links">
             <a class="nav-link" href="#">Location<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item class=nav_links">
-            <a class="btn btn-danger btn-lg" href="form.php" role="button">Contact & schedule</a>
-          </li>
+
          
         </ul>
       </div>
     </nav>
+    <!-- Contact Form -->
+    <form method="post" name="myemailform" action="form.php">
+    <p>
+        Enter Name:	<input type="text" name="name">
+    </p>
+        Enter Email Address:<input type="text" name="email">
+
+        Enter Message: <textarea name="message"></textarea>
+
+        <input type="submit" value="Send Form">
+    </form>
+
+   
 
 
-  
+<?php
+        if(!isset($_POST['submit']))
+        {
+            //This page should not be accessed directly. Need to submit the form.
+            echo "error; you need to submit the form!";
+        }
+        $name = $_POST['name'];
+        $visitor_email = $_POST['email'];
+        $message = $_POST['message'];
 
-    <div class="container-fluid">
-    <!--Hero Image-->
-    <div class="jumbotron">
-      <h1 class="display-4">Begin A Your Vehicle Detail & Rental Service</h1>
-      <p class="lead">Contact us today to schedule an appointment or learn about or remarkable detail and rental services.</p>
-      <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
-    </div>
-  </div>
+        //Validate first
+        if(empty($name)||empty($visitor_email)) 
+        {
+            echo "Name and email are mandatory!";
+            exit;
+        }
+
+        if(IsInjected($visitor_email))
+        {
+            echo "Bad email value!";
+            exit;
+        }
+
+        $email_from = 'WesthillsDetail';//<== update the email address
+        $email_subject = "New Form submission";
+        $email_body = "You have received a new message from the user $name.\n".
+            "Here is the message:\n $message".
+            
+        $to = "Jmorrissette@haselwood.com";//<== update the email address
+        $headers = "From: $email_from \r\n";
+        $headers .= "Reply-To: $visitor_email \r\n";
+        //Send the email!
+        mail($to,$email_subject,$email_body,$headers);
+        //done. redirect to thank-you page.
+        header('Location: thank-you.html');
 
 
-    <h1 class="display-4 text-center">Detail Package For Every Need.</h1>
-
-    <!-- Package Cards -->
-
-    <div class="container d-flex flex column flex-md-row justfiy-content-between">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner d-xl-block d-s-block d-md-none d-lg-none d-xl-none">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      
+        // Function to validate against any email injection attempts
+        function IsInjected($str)
+        {
+        $injections = array('(\n+)',
+                    '(\r+)',
+                    '(\t+)',
+                    '(%0A+)',
+                    '(%0D+)',
+                    '(%08+)',
+                    '(%09+)'
+                    );
+        $inject = join('|', $injections);
+        $inject = "/$inject/i";
+        if(preg_match($inject,$str))
+            {
+            return true;
+        }
+        else
+            {
+            return false;
+        }
+        }
         
-    </div>
+?> 
+ 
+       
+        
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -123,3 +158,31 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("Jmorrissette@haselwood.com", "Test Detail email",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
+<form method="post" action="subscriberform.php">
+
+
+<textarea name="message"></textarea>
+
+
+<input type="submit">
+
+
+</form>
