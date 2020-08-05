@@ -11,9 +11,33 @@ p{
     color:white;
     font: 11px/13px Arial, Helvetica, sans-serif;
     padding-left: 10px;
+    margin-bottom: 0;
 }
 .header_background{
     color: white;
     background-color: black;
 }
 
+.navbar-brand{
+    margin-right:0;
+}
+
+.top_header_text{
+    font-size: 15px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+.nav_links{
+    padding-right: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .top_header_text{
+        font-size: 11px;
+        padding-right: 10px;
+        text-align: center;
+        
+    }
+  }
