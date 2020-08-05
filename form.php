@@ -73,14 +73,16 @@
     </nav>
     <!-- Contact Form -->
     <form method="post" name="myemailform" action="form.php">
-    <p>
-        Enter Name:	<input type="text" name="name">
-    </p>
-        Enter Email Address:<input type="text" name="email">
-
-        Enter Message: <textarea name="message"></textarea>
-
-        <input type="submit" value="Send Form">
+        <p>
+            Enter First Name:	<input type="text" name="first_name">
+        </p>
+        <p>
+            Enter Email Address:<input type="text" name="email">
+        </p>
+        <p>
+            Enter Message: <textarea name="message"></textarea>
+        </p>
+            <input type="submit" value="Send Form">
     </form>
 
    
@@ -92,7 +94,7 @@
             //This page should not be accessed directly. Need to submit the form.
             echo "error; you need to submit the form!";
         }
-        $name = $_POST['name'];
+        $first_name = $_POST['first_name'];
         $visitor_email = $_POST['email'];
         $message = $_POST['message'];
 
@@ -109,9 +111,9 @@
             exit;
         }
 
-        $email_from = 'WesthillsDetail';//<== update the email address
+        $email_from = "Westhills Detail";//<== update the email address
         $email_subject = "New Form submission";
-        $email_body = "You have received a new message from the user $name.\n".
+        $email_body = "You have received a new message from $name.\n".
             "Here is the message:\n $message".
             
         $to = "Jmorrissette@haselwood.com";//<== update the email address
@@ -120,7 +122,7 @@
         //Send the email!
         mail($to,$email_subject,$email_body,$headers);
         //done. redirect to thank-you page.
-        header('Location: thank-you.html');
+        header('Location: index.html');
 
 
         // Function to validate against any email injection attempts
@@ -160,29 +162,3 @@
 </html>
 
 
-<?php
-
-
-if($_POST["message"]) {
-
-
-mail("Jmorrissette@haselwood.com", "Test Detail email",
-
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-
-}
-
-
-?>
-<form method="post" action="subscriberform.php">
-
-
-<textarea name="message"></textarea>
-
-
-<input type="submit">
-
-
-</form>
