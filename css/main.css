@@ -2,6 +2,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -69,7 +74,7 @@ p{
 
 @media only screen and (max-width: 600px) {
     .top_header_text{
-        font-size: 11px;
+        font-size: 10px;
         padding-right: 10px;
         text-align: center;
         
