@@ -74,11 +74,30 @@ p{
     margin-left:100px;
     margin-top: 120px;
 }
-.mobile_card_container{
-    padding-left: 40px;
+
+
+/* Detail Packages */
+
+.detail_package_title{
+    letter-spacing: 0px;
+    color: #343434;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: 600;
+}
+
+
+
+.detail_package_card{
+    border-top: 7px solid red;
+    box-shadow: 3px 0px 5px 12px #fbfbfb;
+    margin:50px;
+    width: 600px;
+    height: 485px;
 }
 
 @media only screen and (max-width: 600px) {
+
     .top_header_text{
         font-size: 10px;
         padding-right: 10px;
@@ -97,10 +116,7 @@ p{
     }
 
 
-    .detail_package_title{
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
+    
 
     .hero_header{
         width: 335px;
@@ -129,6 +145,30 @@ p{
 
     .hero_button{
         margin-left:10px;
-        margin-top: 35px;
+        margin-top: 40px;
+    }
+
+    .detail_package_title{
+        text-align: center;
+        letter-spacing: 0px;
+        font-weight: 600;
+        color: #343434;
+        opacity: 1;
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .detail_package_container{
+        padding-left:0;
+        flex-direction: column;
+    
+    }
+
+    .detail_package_card{
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left:0;
+        margin-right:0;
+        width: 350px;
     }
   }
