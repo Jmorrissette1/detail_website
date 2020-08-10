@@ -149,6 +149,10 @@ p{
 }
 
 /* Toyta Rental */
+
+.toyota_rental_links{
+    color: red;
+}
 .toyota_rental_container{
     max-width: 1300px;
     margin-left: auto;
@@ -161,6 +165,7 @@ p{
     margin-top:75px;
     margin-left: 50px;
     margin-right: 40px;
+    margin-bottom: 75px;
 }
 .toyota_rental_text_container{
     margin-left:50px;
@@ -186,6 +191,48 @@ p{
 }
 
 
+.other_package_card{   
+    box-shadow: 3px 0px 5px 12px #fbfbfb;
+    margin:50px;
+    width: 600px;
+    height: 485px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.other-services-title{
+    color: #D60812;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.other_services_button{
+    background-color:#074167;
+    padding-top: 10px;
+    margin-top: 5px;
+    width: 193px;
+    height: 45px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border:none;
+}
+
+.other_services_button2{
+    background-color:#074167;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 193px;
+    height: 45px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border:none;
+}
 @media only screen and (max-width: 600px) {
 
     .top_header_text{
