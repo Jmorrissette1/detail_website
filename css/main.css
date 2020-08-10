@@ -295,4 +295,20 @@ p{
         width: 350px;
         
     }
+
+    .toyota_rental_text_container{
+        margin-left:25px;
+        margin-right:25px;
+        margin-top:25px;
+    }
+
+    .toyota_rental_header_text{
+        margin-bottom:5px;
+        text-align: left;
+        max-width: 100%;
+        height: auto;
+        font-weight: 600;
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+    }
   }
