@@ -78,6 +78,10 @@ p{
 
 
 /* Detail Packages */
+.detail_package_container{
+    margin-bottom:25px;
+
+}
 
 .detail_package_title{
     letter-spacing: 0px;
@@ -144,6 +148,44 @@ p{
     border:none;
 }
 
+/* Toyta Rental */
+.toyota_rental_container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #F7F7F7;
+}
+
+
+.toyota_rental_img{
+    margin-top:75px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.toyota_rental_text_container{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:75px;
+}
+
+.toyota_rental_header_text{
+    margin-bottom:10px;
+    text-align: left;
+    width: 499px;
+    height: 121px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.toyota_rental_sub_header{
+    margin-top:10px;
+    font-weight: 600;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 @media only screen and (max-width: 600px) {
 
     .top_header_text{
@@ -175,14 +217,14 @@ p{
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
-        padding-left: 10px;
+        padding-left: 22px;
         padding-top:0px;
         font-size: 45px;
     }
 
     .hero_text{
         text-align: left;
-        padding-left:10px;
+        padding-left:22px;
         padding-top:45px;
         width: 335px;
         height: 112px;
@@ -192,7 +234,7 @@ p{
     }
 
     .hero_button{
-        margin-left:10px;
+        margin-left:22px;
         margin-top: 40px;
     }
 
@@ -202,7 +244,7 @@ p{
         font-weight: 600;
         color: #343434;
         opacity: 1;
-        font-size: 27px;
+        font-size: 29px;
         margin-bottom: 20px;
     }
 
@@ -238,5 +280,19 @@ p{
         letter-spacing: 0px;
         color: #FFFFFF;
         border:none;
+    }
+
+    /* Toyota Rentals */
+    .toyota_rental_container{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right:auto;
+        background-color: #F7F7F7;
+    }
+
+    .toyota_rental_img{
+        margin:0;
+        width: 350px;
+        
     }
   }
