@@ -290,6 +290,13 @@ p{
 .bottom_box_button{
     margin-top: 15px;
     margin-left: 50px;
+    background-color: #C70101;
+    border:none;
+}
+
+.footer{
+    display: flex;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
