@@ -96,7 +96,7 @@ p{
 
 .detail_package_card{
     border-top: 7px solid #d60812;
-    box-shadow: 3px 0px 5px 12px #fbfbfb;
+    box-shadow: rgba(135, 140, 157, 0.2) 0px 1px 21px 0px;
     margin:50px;
     width: 600px;
     height: 485px;
@@ -184,15 +184,35 @@ p{
 }
 
 .toyota_rental_sub_header{
-    margin-top:10px;
+    margin-top:25px;
     font-weight: 600;
     color: #343434;
     font-family: 'Montserrat', sans-serif;
 }
+.toyota_rental_text{
+    margin-top:25px;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1;
+}
+
+/* Other Services */
+.other_services_header{
+    margin-top: 50px;
+    text-align: center;
+    font-size:  50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #383838;
+
+}
 
 
 .other_package_card{   
-    box-shadow: 3px 0px 5px 12px #fbfbfb;
     margin:50px;
     width: 600px;
     height: 485px;
@@ -232,6 +252,12 @@ p{
     letter-spacing: 0px;
     color: #FFFFFF;
     border:none;
+}
+
+/* Bottom Jumbotron */
+.bottom_jumbotrons{
+   margin-top:125px;
+    
 }
 @media only screen and (max-width: 600px) {
 
@@ -357,5 +383,48 @@ p{
         font-weight: 600;
         font-size: 35px;
         font-family: 'Montserrat', sans-serif;
+    }
+
+    /* other servies box*/
+
+    .other_services_header{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size:  35px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0px;
+        color: #383838;
+    
+    }
+
+    .other_package_card{   
+        margin:10px;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .other-services-title{
+        color: #D60812;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .other_services_button{
+        background-color:#074167;
+        padding-top: 10px;
+        margin-top: 15px;
+        width: 193px;
+        height: 45px;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        border:none;
     }
   }
