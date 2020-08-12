@@ -257,8 +257,25 @@ p{
 /* Bottom Jumbotron */
 .bottom_jumbotrons{
    margin-top:125px;
+   max-width: 1350px;
+   margin-left: auto;
+   margin-right:auto;
+   
     
 }
+
+.bottom_hero_img{
+    background-image: url(img/detail-lower-image.png);
+    width: 716px;
+    height: 399px;
+}
+
+.bottom_hero_img2{
+    background-image: url(img/rental-lower-image.png);
+    width: 716px;
+    height: 399px;
+}
+
 @media only screen and (max-width: 600px) {
 
     .top_header_text{
@@ -427,4 +444,24 @@ p{
         color: #FFFFFF;
         border:none;
     }
+
+    .bottom_jumbotrons{
+        flex-direction: column;
+        max-width: 100%;
+        margin-top:0;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .bottom_hero_img{
+      
+        width: 100%;
+        height: auto;
+    }
+    
+    .bottom_hero_img2{
+        width: 100%;
+        height: auto;
+    }
+         
   }
