@@ -154,7 +154,9 @@ p{
     color: red;
 }
 .toyota_rental_container{
-    max-width: 1300px;
+    margin-top:50px;
+    margin-bottom:50px;
+    justify-content: center;
     margin-left: auto;
     margin-right:auto;
     background-color: #F7F7F7;
@@ -163,7 +165,6 @@ p{
 
 .toyota_rental_img{
     margin-top:75px;
-    margin-left: 50px;
     margin-right: 40px;
     margin-bottom: 75px;
 }
@@ -201,7 +202,7 @@ p{
 
 /* Other Services */
 .other_services_header{
-    margin-top: 50px;
+    margin-top: 75px;
     text-align: center;
     font-size:  50px;
     font-weight: 600;
@@ -210,7 +211,6 @@ p{
     color: #383838;
 
 }
-
 
 .other_package_card{   
     margin:50px;
