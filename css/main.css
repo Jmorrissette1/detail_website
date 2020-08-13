@@ -39,13 +39,20 @@ p{
     
 }
 .nav_links{
+    font-size: 18px;
     padding-right: 46px;
 }
 
 .contact_us_button{
     background-color: #ffffff;
     color: red;
+    width: 222px;
+    height: 45px;
 }
+/************** HOME PAGE *************/
+/**************************************/                                  
+/**************************************/
+/**************************************/
 
 .hero_img{
     margin-bottom: 45px;
@@ -79,6 +86,15 @@ p{
 .hero_button{
     margin-left:575px;
     margin-top: 60px;
+    width: 219px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C70101;
+    border: none;
 }
 
 
@@ -314,6 +330,98 @@ p{
 }
 .footer_box{
     margin:75px;
+}
+
+/****** RENTAL REQUIREMENTS PAGE ******/
+/**************************************/                                  
+/**************************************/
+/**************************************/
+
+.rental_requirements_container{ 
+    margin-top:100px;
+}
+
+.rental_req_text{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #343434;
+}
+.rental_reqs_header{
+    padding-left: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+.rental_req_text_box{
+    width: 600px;
+}
+
+.contact_rental_p{
+    margin-top: 20px;
+    padding-left: 40px;
+    color: #343434;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.rental_req_box_header{
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 500px;
+    color: #D60812;
+}
+.rental_p{
+    margin-top: 50px;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #D60812;
+    font-family: 'Montserrat', sans-serif;
+}
+.rental_reqs_jumbotron{
+    background-color: #f7f7f7;
+    margin-left: 150px;
+    width: 502px;
+    height: 265px;
+
+}
+
+.rental_reqs_button{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 277px;
+    height: 45px;
+    background-color:  #D60812;
+    border:none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.rental_reqs_button:hover{
+    background-color: red;
+}
+
+.rental_req_disclaim{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-style: italic;
+
 }
 
 /* Normal Screens  */
@@ -571,5 +679,90 @@ p{
         background-color: #383838;
         margin-top: 50px;
     }
+/****** RENTAL REQUIREMENTS PAGE ******/
+/**************************************/                                  
+/**************************************/
+/**************************************/
+
+    .rental_requirements_container{ 
+      margin-top: 15px;
+      max-width: 100%;
+      flex-direction: column;
+    }
+
+    .rental_req_list{
+        padding-left:25px;
+    }
+    .rental_req_text{
+        padding-left:0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+ 
+    }
+    .rental_reqs_header{
+        margin-bottom: 30px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .rental_req_text_box{
+        width: 375px;
+    }
+
+    .contact_rental_p{
+        margin-top: 20px;
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 15px;
+      
+        
+    }
+    .rental_req_box_header{
+        padding-top: 25px;
+        padding-left: 15px;
+        font-size: 30px;
+    
+       
+    }
+    .rental_p{
+        margin-top: 50px;
+        padding-left: 15px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        color: #D60812;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .rental_reqs_jumbotron{
+        margin-left:10px;
+        max-width: 100%;
+    }
+
+    .rental_reqs_button{
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 277px;
+        height: 45px;
+        background-color:  #D60812;
+        border:none;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .rental_reqs_button:hover{
+        background-color: red;
+    }
+
+    .rental_req_disclaim{
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-style: italic;
+
+    }   
          
   }
