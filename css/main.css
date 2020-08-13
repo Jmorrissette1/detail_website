@@ -11,6 +11,8 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* 4k Screens */
+
 .nav_bar{
     height: 90px;
 }
@@ -40,31 +42,34 @@ p{
     padding-right: 46px;
 }
 
-
+.contact_us_button{
+    background-color: #ffffff;
+    color: red;
+}
 
 .hero_img{
     margin-bottom: 45px;
     background-image: url(img/test.png);
     background-size: cover;
     max-width: 100%;
-    height: 640px;
+    height: 800px;
 }
 
 .hero_header{
     color: #ffffff;
-    font: bold 60px;
-    padding-left: 100px;
-    padding-top: 100px;
-    width: 811px;
-    height: 145px;
+    font-weight: 600;
+    font: 80px;
+    width:1200px;
+    padding-left: 575px;
+    padding-top: 125px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero_text{
-    width: 603px;
+    width:1200px;
     height: 50px;
-    padding-left:100px;
-    padding-top: 100px;
+    padding-left:575px;
+    padding-top: 10px;
     letter-spacing: 0px;
     color: #ffffff;
     text-align: left;
@@ -72,8 +77,8 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 .hero_button{
-    margin-left:100px;
-    margin-top: 120px;
+    margin-left:575px;
+    margin-top: 60px;
 }
 
 
@@ -84,11 +89,14 @@ p{
 }
 
 .detail_package_title{
+    margin-top: 125px;
+    margin-bottom: 25px;
     letter-spacing: 0px;
     color: #343434;
     text-transform: capitalize;
     opacity: 1;
     font-weight: 600;
+    font-size: 50px;
 
 }
 
@@ -154,24 +162,25 @@ p{
     color: red;
 }
 .toyota_rental_container{
-    margin-top:50px;
+    margin-top:150px;
     margin-bottom:50px;
     justify-content: center;
     margin-left: auto;
     margin-right:auto;
     background-color: #F7F7F7;
+    
 }
 
 
 .toyota_rental_img{
-    margin-top:75px;
+    margin-top:125px;
     margin-right: 40px;
-    margin-bottom: 75px;
+    margin-bottom: 125px;
 }
 .toyota_rental_text_container{
     margin-left:50px;
     margin-right:50px;
-    margin-top:75px;
+    margin-top:125px;
 }
 
 .toyota_rental_header_text{
@@ -202,7 +211,7 @@ p{
 
 /* Other Services */
 .other_services_header{
-    margin-top: 75px;
+    margin-top: 125px;
     text-align: center;
     font-size:  50px;
     font-weight: 600;
@@ -256,8 +265,8 @@ p{
 
 /* Bottom Jumbotron */
 .bottom_jumbotrons{
-   margin-top:125px;
-   max-width: 1350px;
+   margin-top:225px;
+   max-width: 100%;
    margin-left: auto;
    margin-right:auto;
    
@@ -267,20 +276,22 @@ p{
 .bottom_hero_img{
     border-radius: 0px;
     background-image: url(img/detail-lower-image.png);
-    width: 716px;
-    height: 399px;
+    background-size: cover;
+    width: 100%;
+    height: 575px;
 }
 
 .bottom_hero_img2{
     background-image: url(img/rental-lower-image.png);
-    width: 716px;
-    height: 399px;
+    background-size: cover;
+    width: 100%;
+    height: 575px;
 }
 .bottom_box_header{
-    padding-left: 50px;
+    padding-left: 100px;
     margin-top:100px;
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0px;
@@ -289,16 +300,82 @@ p{
 }
 .bottom_box_button{
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 100px;
     background-color: #C70101;
     border:none;
 }
 
 .footer{
     display: flex;
-    margin-top: 50px;
+    height: 451px;
+    background-color: #383838;
+    
+    color: #ffffff;
+}
+.footer_box{
+    margin:75px;
 }
 
+/* Normal Screens  */
+@media only screen and (max-width: 1440px) {
+    .hero_header{
+        color: #ffffff;
+        font-weight: 600;
+        font: 60px;
+        padding-left: 100px;
+        max-width: 700px;
+        padding-top: 100px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero_text{
+        width:600px;
+        height: 50px;
+        padding-left:100px;
+        padding-top: 10px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        text-align: left;
+        font: bold 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .hero_button{
+        margin-left:100px;
+        margin-top: 60px;
+    }
+    
+    .hero_img{
+        margin-bottom: 45px;
+        background-image: url(img/test.png);
+        background-size: cover;
+        max-width: 100%;
+        height: 640px;
+    }
+
+    .bottom_hero_img{
+        
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .bottom_hero_img2{
+        
+        width: 100%;
+        height: 400px;
+    }
+
+    .bottom_box_header{
+        padding-left: 50px;
+       
+    }
+    .bottom_box_button{
+        margin-top: 15px;
+        margin-left: 50px;
+        
+    }
+    
+}
 @media only screen and (max-width: 600px) {
 
     .top_header_text{
@@ -485,6 +562,14 @@ p{
     .bottom_hero_img2{
         width: 100%;
         height: auto;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 451px;
+        background-color: #383838;
+        margin-top: 50px;
     }
          
   }
