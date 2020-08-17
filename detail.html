@@ -13,6 +13,7 @@
   </head>
   <body>
        
+
 <!-- Top Header -->
 
 <div>
@@ -41,58 +42,64 @@
 
 <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light nav_bar">
-      <a class="navbar-brand" href="index.html"><img src="css/img/whd-logo.png" width=101px height=30px></a>
+      <a class="navbar-brand" href="#"><img src="css/img/whd-logo.png" width=101px height=30px></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav d-flex justify-content-end">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item dropdown nav_links">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="Index.html">Home</a>
+              <a class="dropdown-item" href="detail.html">Detail</a>
               <a class="dropdown-item" href="paint_protection.html">Paint Protection</a>
-              <a class="dropdown-item" href="#">Window Tinting</a>
+              <a class="dropdown-item" href="window_tinting.html">Window Tinting</a>
             </div>
           </li>
-          <li class="nav-item active class=nav_links">
-            <a class="nav-link" href="#">Rental<span class="sr-only">(current)</span></a>
+          <li class="nav-item active nav_links">
+            <a class="nav-link" href="rental.html">Rental<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item class=nav_links">
-            <a class="nav-link" href="#">Location<span class="sr-only">(current)</span></a>
+          <li class="nav-item nav_links">
+            <a class="nav-link" href="location.html">Location<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item class=nav_links">
-            <a class="btn btn-danger btn-lg" href="form.php" role="button">Contact & schedule</a>
+          <li class="nav-item nav_links">
+            <a class="btn btn-danger btn-lg contact_us_button" href="form.php" role="button">Contact & Schedule</a>
           </li>
          
         </ul>
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
       <!-- Top Box-->
       <div class="top_detail_box d-flex">
-        <div>
-           <h1>Detail Package For Every Need.</h1>
-           <p>Whether you have a new or used vehicle, you need to maintain the appearance. As automotive experts, 
+        <div class="top_detail_text_box"> 
+           <h1 class="top_detail_header">Detail Package For Every Need.</h1>
+           <p class="top_detail_p">Whether you have a new or used vehicle, you need to maintain the appearance. As automotive experts, 
              West Hills Detail services will keep your vehicle in top condition.</p>
         </div>
-        <div>
+        <div class="detail_top_image">
           <img src="css/img/detail-lower-image.png">
         </div>
       </div>
       <!-- Full detail Box-->
       <div class="full_detail_box d-flex">
-        <div>
-          <p>Whats in A Full Detail</p>
-          <div class="card detail_card" style="width: 18rem;">
+        <div class="detail_card_box">
+          <p class="detail_card_box_header">Whats in A Full Detail</p>
+          <div class="card detail_card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="detail-card-title">Full Detail Prices</h5>
+              <div class="detail_prices d-flex align-items-baseline">
+                <p class="price">$199 </p>
+                <p class="price_pkg"> / Small</p>
+                <p class="price">$249 </p>
+                <p class="price_pkg"> /  Large</p>
+              </div>
+              <p class="card-text detail_disclaimer">All prices are subject to change upon inspection of the vehicle.</p>
+              <a href="#" class="btn btn-primary">Contact to Schedule</a>
             </div>
           </div>
         </div>
@@ -117,10 +124,10 @@
         </div>
       </div>
       <!-- Interior Box -->
-      <div class="interior_detail_box d-flex">
-        <div>
-          <p>Interior Detail Only</p>
-          <div class="card detail_card" style="width: 18rem;">
+      <div class="full_detail_box d-flex">
+        <div class="detail_card_box">
+          <p class="detail_card_box_header">Interior Detail Only</p>
+          <div class="card detail_card">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -144,12 +151,12 @@
         </div>
       </div>
       <!-- Exterior box-->
-      <div class="exterior_detail_box d-flex">
-        <div>
-          <p>Exterior Detail Only</p>
-          <div class="card detail_card" style="width: 18rem;">
+      <div class="full_detail_box d-flex">
+        <div class="detail_card_box">
+          <p class="detail_card_box_header">Exterior Detail Only</p>
+          <div class="card detail_card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="detail-card-title">Full Detail Prices</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -168,14 +175,14 @@
             <li class="detail_text_list">Hand-apply wax to the exterior painted surfaces</li>
             <li class="detail_text_list"> Wipe down exterior surfaces to remove wax residue</li>          
           </ul>
-          <p>Does not include cleaning of engine</p>
+          <p class="detail_card_box_header">Does not include cleaning of engine</p>
         </div>
       </div>
       <!-- Exterior Hand Wash & Wax -->
-      <div class="exterior_handwash_box d-flex">
-        <div>
-          <p>Exterior Hand Wash & Wax</p>
-          <div class="card detail_card" style="width: 18rem;">
+      <div class="full_detail_box d-flex">
+        <div class="detail_card_box">
+          <p class="detail_card_box_header">Exterior Hand Wash & Wax</p>
+          <div class="card detail_card">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

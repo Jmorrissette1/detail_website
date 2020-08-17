@@ -45,9 +45,13 @@ p{
 
 .contact_us_button{
     background-color: #ffffff;
-    color: red;
+    border: 2px solid #d60812;
+    color: #d60812;
     width: 222px;
     height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 /************** HOME PAGE *************/
 /**************************************/                                  
@@ -430,10 +434,125 @@ p{
 /**************************************/
 /**************************************/
 
+.top_detail_box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    
+    
+}
+
+
+.top_detail_text_box{
+    margin-top: 25px;
+    width: 650px;
+
+}
+.top_detail_header{
+    margin-bottom:20px;
+    width: 500px;
+    height: 121px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top_detail_p{
+    width: 450px;
+    text-align: left;
+    font-size: 18px; 
+    font-family: 'Montserrat', sans-serif; 
+}
+.detail_top_image{
+    width: 600px;
+    height: 400px;
+  
+}
+.full_detail_text_box{
+    
+}
 .bottom_box{
     height: 250px;
     background-color:  #D60812;
 }
+
+.detail_text_list{
+
+    list-style: none;
+    text-align: left;
+    font-weight: 500;
+    color: #343434;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.full_detail_box{
+    justify-content: center;
+    background-color:  #F7F7F7;
+    
+}
+
+.full_detail_text_box{
+    margin-top:80px;
+    width:600px;
+
+}
+.detail_card_box{
+    margin-top:80px;
+    width: 600px;
+    
+}
+.detail_card_box_header{
+    margin-bottom: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:500;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #D60812;
+    opacity: 1;
+}
+
+.detail_card{
+    border-top: 7px solid #d60812;
+    box-shadow: rgba(135, 140, 157, 0.2) 0px 1px 21px 0px;
+    width: 500px;
+    height: 313px;
+}
+
+.detail-card-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #074167;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price{
+    margin-top:20px;
+    margin-right:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #D60812
+}
+
+.price_pkg{
+    margin-top:20px;
+    margin-right:20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #A5ABB4;  
+}
+
+.detail_disclaimer{
+    font-family: 'Montserrat', sans-serif;
+    font-size:19px;
+    letter-spacing: 0px;
+    color: #A5ABB4;
+}
+
 /* Normal Screens  */
 @media only screen and (max-width: 1440px) {
     .hero_header{
