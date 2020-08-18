@@ -476,7 +476,7 @@ p{
 
 .detail_text_list{
     margin-top:10px;
-    list-style-image: url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
+    list-style-image: url(C:\Users\Jmorrissette\Documents\GitHub\detail_website\css\img\blue_check.jpg);
     text-align: left;
     font-weight: 500;
     color: #343434;
@@ -582,6 +582,8 @@ p{
 }
 
 .additional_detail_box{
+    margin-bottom: 100px;
+    margin-left: 100px;
     justify-content: center;
 }
 .add_detail_h1{
@@ -595,9 +597,36 @@ p{
 
 }
 
-
 .ozone_box{
-    
+    border-right: 1px solid #A5ABB4;
+   
+}
+.water_box{
+    margin-left:100px;
+}
+
+.add_detail_h2{
+    margin-bottom: 50px;
+    width: 456px;
+    height: 37px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #D60812;
+    opacity: 1;
+}
+
+.additonal_p{
+    margin-right:100px;
+    width: 499px;
+    height: 82px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1
 }
 /* Normal Screens  */
 @media only screen and (max-width: 1440px) {
