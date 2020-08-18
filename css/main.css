@@ -468,17 +468,15 @@ p{
     height: 400px;
   
 }
-.full_detail_text_box{
-    
-}
+
 .bottom_box{
     height: 250px;
     background-color:  #D60812;
 }
 
 .detail_text_list{
-
-    list-style: none;
+    margin-top:10px;
+    list-style-image: url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
     text-align: left;
     font-weight: 500;
     color: #343434;
@@ -488,16 +486,20 @@ p{
 .full_detail_box{
     justify-content: center;
     background-color:  #F7F7F7;
+    border-bottom: 1px solid lightgrey;
     
 }
 
 .full_detail_text_box{
     margin-top:80px;
+    margin-bottom:80px;
     width:600px;
+    
 
 }
 .detail_card_box{
     margin-top:80px;
+    margin-bottom:75px;
     width: 600px;
     
 }
@@ -552,7 +554,51 @@ p{
     letter-spacing: 0px;
     color: #A5ABB4;
 }
+.detail_contact_button{
+    width: 250px;
+    height: 45px;
+    background-color:#074167;
+    border: none;
 
+}
+
+.detail_box_h1{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1;
+}
+
+.detail_text_p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;  
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1;
+}
+
+.additional_detail_box{
+    justify-content: center;
+}
+.add_detail_h1{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color:#343434;
+
+}
+
+
+.ozone_box{
+    
+}
 /* Normal Screens  */
 @media only screen and (max-width: 1440px) {
     .hero_header{
