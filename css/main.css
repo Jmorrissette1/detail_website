@@ -734,11 +734,9 @@ a{
 
 
 .footer_logo{
-    margin-left: 10px;
+    margin-left: 110px;
 }
-.socail_icon_box{
-    margin-top: 150px;
-}
+
 
 .social_icon{
     margin-left:10px;
@@ -1146,7 +1144,7 @@ a{
         
     }
 
-    
+
 /****** RENTAL REQUIREMENTS PAGE ******/
 /**************************************/                                  
 /**************************************/
@@ -1232,5 +1230,40 @@ a{
         font-style: italic;
 
     }   
+
+       /**************  Footer    *************/
+        /**************************************/
+        /**************************************/
+        /**************************************/
+
+        .footer{
+            margin-top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .footer_logo{
+          margin-left: 0;
+
+        }
+       
+
+        .social_icon{
+            margin-left:10px;
+            margin-right: 15px;
+        }
+
+        .footer_list{
+            margin-bottom: 10px;
+            list-style: none;   
+            text-align: left;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
          
   }
