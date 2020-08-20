@@ -446,7 +446,7 @@ p{
 
 }
 
-.top_detail_header{
+.top_page_header{
     margin-bottom:20px;
     width: 500px;
     height: 121px;
@@ -951,7 +951,7 @@ p{
     .detail_img{
         width: 100%;
     }
-    .top_detail_header{
+    .top_page_header{
         margin-bottom:10px;
         font-size: 30px;
         width: 350px;
