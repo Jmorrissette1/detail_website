@@ -949,11 +949,11 @@ p{
         width: 350px;
     }
     .detail_img{
-        width: 345px;
+        width: 100%;
     }
     .top_detail_header{
         margin-bottom:10px;
-        font-size: 28px;
+        font-size: 30px;
         width: 350px;
         height:100%;
     }
@@ -978,12 +978,13 @@ p{
 
     .detail_card_box{
         margin-top: 10px;
-        
         width: 100%;
     
     }
 
     .detail_card_box_header{
+        margin-top:25px;
+        padding-left:15px;
         text-align: center;
         margin-left:0px;
         margin-right: 30px;
@@ -1010,6 +1011,60 @@ p{
         flex-direction: column;
     }
 
+    .ozone_box{
+        width: 100%;
+    }
+
+    .add_detail_h2{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .additonal_p{
+        padding-left:25px;
+        padding-right: 25px;
+        width:100%;
+
+    }
+    .water_box{
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .add_list{
+        margin-top: 50px;
+        padding-left: 55px;
+    }
+
+    .add_price{
+        text-align: center;
+    }
+
+    .add_button{
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+
+    .bottom_box{
+        height:375px;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .bottom_box_h1{
+        margin-top: 100px;
+        width: 375px;
+        text-align: center;
+        font-size: 38px;
+    }
+    .bottom_button{
+        width: 165px;
+        height: 45px;
+        margin-top: 70px;
+        margin-left: 105px;
+        
+    }
 /****** RENTAL REQUIREMENTS PAGE ******/
 /**************************************/                                  
 /**************************************/
