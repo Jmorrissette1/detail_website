@@ -1000,8 +1000,13 @@ a{
     }
     
     .bottom_hero_img2{
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 100%;
         height: auto;
+    }
+    .button_box_button{
+        margin-left: 10px;
     }
 
     .footer{
