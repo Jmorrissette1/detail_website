@@ -421,7 +421,12 @@ a{
     
 
 }
-
+.rental_card_body{
+    display: flex;
+    
+    flex-direction: column;
+    a
+}
 .rental_reqs_a{
     width: 811px;
     height: 20px;
