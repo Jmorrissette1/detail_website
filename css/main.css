@@ -403,7 +403,7 @@ a{
 .rental_card_h1{
     width: 1220px;
     height: 40px;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-bottom: 75px;
     font-family: 'Montserrat', sans-serif;
     margin-left: 25px;
@@ -423,8 +423,45 @@ a{
 }
 
 .rental_reqs_a{
+    width: 811px;
+    height: 20px;
+    color: #D50812;
+}
+
+.rental_a_box{
+    background-color: #F7F7F7;
+    display: flex;
+    height: 130px;
+    padding-top:50px;
+    justify-content: center;
+}
+
+.rental_text_box_container{
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  
+
+}
+
+.rental_text_box_h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
+
+.rental_text_box_p{
+   text-align: center;
+   margin-bottom: 25px;
+   font-size: 18px;
+   color:#343434;   
+   font-family: 'Montserrat', sans-serif;
+}
+
+
 
 /****** RENTAL REQUIREMENTS PAGE ******/
 /**************************************/                                  
