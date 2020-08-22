@@ -386,6 +386,46 @@ a{
     font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
 }
+
+/************   Rental Page ***********/
+/**************************************/                                  
+/**************************************/
+/**************************************/
+
+.rental_card_container{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.rental_card_h1{
+    width: 1220px;
+    height: 40px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #343434;
+    opacity: 1;
+}
+.rental_card{
+    width:  535px;
+    height: 572px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+.rental_reqs_a{
+    
+}
+
 /****** RENTAL REQUIREMENTS PAGE ******/
 /**************************************/                                  
 /**************************************/
@@ -467,6 +507,7 @@ a{
 .rental_reqs_button:hover{
     background-color: red;
 }
+
 
 .rental_req_disclaim{
     margin-top: 50px;
@@ -814,7 +855,20 @@ a{
         margin-left: 50px;
         
     }
+
+    .footer_box{
+            margin: 50px;
+    }
     
+    
+    
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .footer_box{
+        margin: 50px;
+}
 }
 @media only screen and (max-width: 600px) {
 
