@@ -487,6 +487,11 @@ a{
     justify-content: center;
 }
 
+.rental_img{
+    width: 110px;
+    height: 50px;
+}
+
 .rental_text_box_container{
     justify-content: center;
     flex-direction: column;
@@ -876,9 +881,24 @@ a{
     
 }
 .rental_hours{
-    margin-top: 150px;
+    margin-top: 160px;
     width: 300px;
     
+}
+
+.location_day{
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434; 
+}
+.location_hours{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: #343434;
 }
 
 .location_h1{
@@ -890,6 +910,65 @@ a{
 
 
 }
+
+.location_map{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.location_jumbotron{
+    width: 500px;
+    height: 300px;
+    margin-top: 85px;
+    background-color: #F7F7F7;
+
+}
+
+.location_p{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+}
+
+.location_a{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #D50812;
+    
+
+}
+
+.location_box_header{
+    padding-top:50px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #D60812;
+
+}
+
+.location_button{
+     width: 180px;
+     height: 45px;
+     margin-top: 25px;
+     margin-left: 40px;
+     padding:10px;
+     background-color: #D60812;
+     font-weight: 600;
+     font-size: 18px;
+     font-family: 'Montserrat', sans-serif;
+     border:none;
+
+
+}
+ 
 
 /**************  Footer    *************/
 /**************************************/
