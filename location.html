@@ -7,11 +7,163 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+     <!-- Custom CSS  -->
+     <link rel="stylesheet" href="css/main.css">
     <title>Westhills Detail</title>
   </head>
   <body>
-    <h1>Location</h1>
+
+    <div>
+      <nav class="navbar navbar-light header_background d-flex flex-row align-items-baseline">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="css/img/header_logo.png" width="87" height="13" class="d-inline-block align-top" alt="" loading="lazy">
+          <p class=" brand_text">AutoGroup</p>
+        </a>
+        <ul class="nav d-flex align-items-baseline justfiy-content-around">
+          <li class="nav-item class= top_header_text d-none d-md-block">
+           <a class="nav-link" href="tel:360-616-3027">Detail (360) 616-3027</a>
+          </li>
+          <li class="nav-item class= top_header_text d-none d-md-block">
+            <a class="nav-link class= top_header_text" href="tel:360-616-3036">Rental:(360) 616-3036</a>
+          </li>
+          <li class="nav-item class= top_header_text d-block d-sm-none">
+            <a class="nav-link class= top_header_text" href="tel:360-616-3036"> Call Detail</a>
+          </li>
+          <li class="nav-item class= top_header_text d-block d-sm-none ">
+            <a class="nav-link class= top_header_text" href="tel:360-616-3027"> Call Rental</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+    
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_bar">
+          <a class="navbar-brand" href="index.html"><img src="css/img/whd-logo-lrg.png" width=120px height=40px></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-end">
+              <li class="nav-item dropdown nav_links">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="detail.html">Detail</a>
+                  <a class="dropdown-item" href="paint_protection.html">Paint Protection</a>
+                  <a class="dropdown-item" href="window_tinting.html">Window Tinting</a>
+                </div>
+              </li>
+              <li class="nav-item active nav_links">
+                <a class="nav-link" href="rental.html">Rental<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item nav_links">
+                <a class="nav-link" href="location.html">Location<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item nav_links">
+                <a class="btn btn-danger btn-lg contact_us_button" href="form.php" role="button">Contact & schedule</a>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
+        
+    <div class="conatiner">
+      
+        <div class="d-flex location_flex_box">
+          <!--Hours flex box-->
+          <div class="detail_hours"> 
+            <h1 class="location_h1"> Location</h1>
+            <p>West Hills Detail Services</p>
+            <p>4949 Auto Center Blvd, </br>Bremerton, WA 98312 </br> (360) 616-3027</p>
+            <a>Contact Us Today</a>
+            <p>Detail Hours</p>
+            <p class="location_day">Monday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Tuesday</p>
+            <p class="location_hours">7:30am - 8:00pm</p>
+            <p class="location_day">Wednesday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">  Thursday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Friday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Saturday</p>
+            <p class="location_hours">8:00am - 4:00pm</p>
+            <p class="location_day">Sunday</p>
+            <p class="location_hours"> Closed</p>
+          </div>
+          <div class="rental_hours">
+            <p>West Hills Detail Services</p>
+            <p>4949 Auto Center Blvd, </br>Bremerton, WA 98312 </br> (360) 616-3027</p>
+            <a>Contact Us Today</a>
+            <p>Detail Hours</p>
+            <p class="location_day">Monday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Tuesday</p>
+            <p class="location_hours">7:30am - 8:00pm</p>
+            <p class="location_day">Wednesday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Thursday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Friday</p>
+            <p class="location_hours">7:30am - 7:00pm</p>
+            <p class="location_day">Saturday</p>
+            <p class="location_hours">8:00am - 4:00pm</p>
+            <p class="location_day">Sunday</p>
+            <p class="location_hours">Closed</p>
+          </div>
+          <!--Map Flex Box-->
+          <div class="location_map"> 
+            <iframe src="https://www.google.com/maps/d/embed?mid=1vCpCddTn9SOHq1vcrV3fiwKTL0T3p7Y3&hl=en"  width="500" height="500">
+           </iframe>
+           <div>
+            <div class="jumbotron-fluid location_jumbotron">
+                <h1 class="display-4 rental_req_box_header">Reserve your Rental Today!</h1>
+                <p class="contact_rental_p">Contact a Helpful Rental Accociate today.</p>
+                <a class="btn btn-primary btn-lg rental_reqs_button" href="contact.php" role="button">Contact West Hills Rental</a>
+              </div>
+
+        </div>
+            
+          </div>
+    
+        </div>
+    </div>
+
+            <!-- Footer -->
+            <div class="container-fluid justify-content-center footer">
+              <div class="footer_box">
+                <img src="css/img/whd-logo-wht.png" class="footer_logo">
+                <div class="footer_box d-flex flex-row">
+                  <div class="social_icon"> <img src="css/img/facebook-icon.png"></div>
+                  <div class="social_icon"><img src="css/img/youtube-icon.png"></div>
+                  <div class="social_icon"><img src="css/img/twitter-icon.png"></div> 
+                </div>
+              </div>
+              <div class="footer_box">
+                <p>Detail Services</p>
+                <p>Shop Address</p>
+                <p>4949 Auto Center Blvd, </br> Bremerton, WA 98312</p>
+                <p>(360) 616-3027</p>
+              </div>
+              <div class="footer_box">
+                  <p>Rental Services</p>
+                  <p>Shop Address</p>
+                  <p>950 West Hills Blvd, </br>Bremerton, WA 98312</p>
+                  <p>(360) 616-3036</p>
+              </div>
+              <div>
+                <ul class="footer_box">
+                  <li class="footer_list"><a href="detail.html">Detail</a></li>
+                  <li class="footer_list"><a href="rental.html">Rental</a></li>
+                  <li class="footer_list"><a href="location.html">Location</a></li>
+                </ul>
+              </div>
+          </div>
+        
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
