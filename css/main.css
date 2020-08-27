@@ -1258,7 +1258,7 @@ a{
         font-size: 29px;
         margin-bottom: 20px;
     }
-
+  
     .detail_package_container{
         padding-left:0;
         padding-right:0;
@@ -1269,6 +1269,7 @@ a{
     .detail_package_card{
         margin-top:15px;
         margin-bottom: 10px;
+        box-shadow: rgba(135, 140, 157, 0.2) 0px 1px 0px 0px;
         margin-left:0;
         margin-right:0;
         width: 100%;
@@ -1456,6 +1457,7 @@ a{
     .detail_prices{
         margin-left: 12%;
     }
+
     .detail_card_box_header{
         margin-top:25px;
         padding-left:15px;
