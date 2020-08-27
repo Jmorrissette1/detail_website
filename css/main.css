@@ -330,6 +330,11 @@ a{
     border:none;
 }
 
+.bottom_box_container{
+    padding-left:0;
+    padding-right:0;
+}
+
 .footer{
     display: flex;
     height: 451px;
@@ -1190,6 +1195,10 @@ a{
 }
 @media only screen and (max-width: 600px) {
 
+    .home_contianer{
+        padding-left: 0;
+        padding-right:0;
+    }
     .top_header_text{
         font-size: 10px;
         padding-right: 10px;
@@ -1252,6 +1261,7 @@ a{
 
     .detail_package_container{
         padding-left:0;
+        padding-right:0;
         flex-direction: column;
     
     }
@@ -1260,8 +1270,8 @@ a{
         margin-top:15px;
         margin-bottom: 10px;
         margin-left:0;
-        margin-right:5px;
-        width: 350px;
+        margin-right:0;
+        width: 100%;
     }
     .card-title{
         color: #D60812;
@@ -1294,7 +1304,7 @@ a{
 
     .toyota_rental_img{
         margin:0;
-        width: 350px;
+        width: 100%;
         
     }
 
@@ -1388,11 +1398,16 @@ a{
         margin-left: 0px;
     }
 
+    
 /************** DETAIL PAGE ***********/
 /**************************************/                                  
 /**************************************/
 /**************************************/
 
+    .detail_contianer{
+        padding-left: 0;
+        padding-right:0;
+    }
     .top_detail_box{
         margin-top: 10px;
         margin-bottom: 10px;
@@ -1445,8 +1460,7 @@ a{
     }
 
     .detail-card-title{
-        justify-content: center;
-        align-items:  center;
+       margin-left: 25%;
     }
     .detail_card{
          width:100%;
@@ -1627,7 +1641,7 @@ a{
 
         .footer_logo{
             display: inline-block;
-             margin-left: 47px;
+            margin-left: 55px;
         }
         .footer{
             margin-top: 0;
@@ -1640,7 +1654,7 @@ a{
         .footer_box{
             margin-bottom:10px;
             margin-top:40px;
-            margin-left: 50px;
+            margin-left: 65px;
             
         }
 
