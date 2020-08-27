@@ -1421,6 +1421,7 @@ a{
         width: 100%;
     }
     .top_page_header{
+        padding-left: 10px;
         margin-bottom:10px;
         font-size: 30px;
         width: 350px;
@@ -1428,6 +1429,7 @@ a{
     }
 
     .top_detail_p{
+        padding-left: 10px;
         margin-bottom: 20px;
         width: 350px;
         text-align: left;
@@ -1451,6 +1453,9 @@ a{
     
     }
 
+    .detail_prices{
+        margin-left: 12%;
+    }
     .detail_card_box_header{
         margin-top:25px;
         padding-left:15px;
@@ -1640,8 +1645,7 @@ a{
         /**************************************/
 
         .footer_logo{
-            display: inline-block;
-            margin-left: 55px;
+            margin-left: 17%;
         }
         .footer{
             margin-top: 0;
@@ -1654,7 +1658,7 @@ a{
         .footer_box{
             margin-bottom:10px;
             margin-top:40px;
-            margin-left: 65px;
+            margin-left: 15%;
             
         }
 
