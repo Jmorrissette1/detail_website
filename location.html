@@ -116,9 +116,8 @@
             <p class="location_hours">Closed</p>
           </div>
           <!--Map Flex Box-->
-          <div class="location_map"> 
-            <iframe src="https://www.google.com/maps/d/embed?mid=1vCpCddTn9SOHq1vcrV3fiwKTL0T3p7Y3&hl=en"  width="500" height="500">
-           </iframe>
+          <div class="location_map">
+             <div id="map"></div>
            <div>
             <div class="jumbotron-fluid location_jumbotron">
                 <h1 class="display-4 location_box_header">Schedule Your Detail </br> Or Rental!</h1>
@@ -161,9 +160,14 @@
         
 
     <!-- Optional JavaScript -->
+      <scrip src="map.js"></script>
+      <script defer
+       src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+      </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
   </body>
 </html>
