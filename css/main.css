@@ -883,15 +883,23 @@ a{
     width: 250px;
     height: 45px;
     background-color: #074167;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     border:none;
 
 }
 
 .add_button2{
     margin-top: 147px;
+    padding: 10px;
     width: 250px;
     height: 45px;
     background-color: #074167;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     border:none;    
 }
 
