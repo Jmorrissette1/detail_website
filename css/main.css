@@ -18,6 +18,7 @@ a{
 
 /* 4k Screens */
 
+
 .nav_bar{
     height: 90px;
 }
@@ -886,6 +887,14 @@ a{
 
 }
 
+.add_button2{
+    margin-top: 147px;
+    width: 250px;
+    height: 45px;
+    background-color: #074167;
+    border:none;    
+}
+
 .add_list{
     margin-top: 25px;
 }
@@ -1415,8 +1424,9 @@ a{
 /**************************************/
 
     .detail_contianer{
-        padding-left: 0;
-        padding-right:0;
+        width: 100%;
+        padding-left: 5px;
+        padding-right:5px;
     }
     .top_detail_box{
         margin-top: 10px;
@@ -1428,7 +1438,7 @@ a{
         width: 350px;
     }
     .detail_img{
-        width: 100%;
+        width: 360px;
     }
     .top_page_header{
         padding-left: 10px;
@@ -1447,7 +1457,7 @@ a{
         font-family: 'Montserrat', sans-serif; 
     }
     .detail_top_image{
-        width: 100%;
+        width: 350px;
         height:100%;
         
     }
