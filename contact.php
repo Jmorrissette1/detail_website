@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Custom CSS  -->
+    
     <link rel="stylesheet" href="css/main.css">
     <title>Westhills Detail</title>
   </head>
@@ -18,141 +19,129 @@
 <!-- Top Header -->
 
 <div>
-  <nav class="navbar navbar-light header_background d-flex flex-row align-items-baseline">
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="img/header_logo.png" width="87" height="13" class="d-inline-block align-top" alt="" loading="lazy">
-      <p class=" brand_text">AutoGroup</p>
-    </a>
-    <ul class="nav d-flex align-items-baseline justfiy-content-around">
-      <li class="nav-item class= top_header_text d-none d-md-block">
-       <a class="nav-link ">Detail (360) 616-3036</a>
-      </li>
-      <li class="nav-item class= top_header_text d-none d-md-block">
-        <a class="nav-link class= top_header_text">Rental:(360) 616-3036</a>
-      </li>
-      <li class="nav-item class= top_header_text d-block d-sm-none">
-        <a class="nav-link class= top_header_text"> Call Detail</a>
-      </li>
-      <li class="nav-item class= top_header_text d-block d-sm-none ">
-        <a class="nav-link class= top_header_text"> Call Rental</a>
-      </li>
-    </ul>
-  </nav>
-</div>
-
-
-<!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav_bar">
-      <a class="navbar-brand" href="#"><img src="img/whd-logo.png" width=101px height=30px></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav d-flex justify-content-end">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Services
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Detail</a>
-              <a class="dropdown-item" href="#">Paint Protection</a>
-              <a class="dropdown-item" href="#">Window Tinting</a>
-            </div>
+      <nav class="navbar navbar-light header_background d-flex flex-row align-items-baseline">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="css/img/header_logo.png" width="87" height="13" class="d-inline-block align-top" alt="" loading="lazy">
+          <p class=" brand_text">AutoGroup</p>
+        </a>
+        <ul class="nav d-flex align-items-baseline justfiy-content-around">
+          <li class="nav-item class= top_header_text d-none d-md-block">
+           <a class="nav-link" href="tel:360-616-3027">Detail (360) 616-3027</a>
           </li>
-          <li class="nav-item active class=nav_links">
-            <a class="nav-link" href="#">Rental<span class="sr-only">(current)</span></a>
+          <li class="nav-item class= top_header_text d-none d-md-block">
+            <a class="nav-link class= top_header_text" href="tel:360-616-3036">Rental (360) 616-3036</a>
           </li>
-          <li class="nav-item class=nav_links">
-            <a class="nav-link" href="#">Location<span class="sr-only">(current)</span></a>
+          <li class="nav-item class= top_header_text d-block d-sm-none">
+            <a class="nav-link class= top_header_text" href="tel:360-616-3036"> Call Detail</a>
           </li>
-
-         
+          <li class="nav-item class= top_header_text d-block d-sm-none ">
+            <a class="nav-link class= top_header_text" href="tel:360-616-3027"> Call Rental</a>
+          </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
+    
+    
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_bar">
+          <a class="navbar-brand" href="index.html"><img src="css/img/whd-logo-lrg.png" width=120px height=40px></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-end">
+              <li class="nav-item dropdown nav_links">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="detail.html">Detail</a>
+                  <a class="dropdown-item" href="paint_protection.html">Paint Protection</a>
+                  <a class="dropdown-item" href="window_tinting.html">Window Tinting</a>
+                </div>
+              </li>
+              <li class="nav-item nav_links">
+                <a class="nav-link" href="rental.html">Rental<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item  active nav_links">
+                <a class="nav-link" href="location.html">Location<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item nav_links">
+                <a class="btn btn-danger btn-lg contact_us_button" href="form.php" role="button">Contact & Schedule</a>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
     <!-- Contact Form -->
-    <form method="post" name="myemailform" action="form.php">
-        <p>
-            Enter First Name:	<input type="text" name="first_name">
-        </p>
-        <p>
-            Enter Email Address:<input type="text" name="email">
-        </p>
-        <p>
-            Enter Message: <textarea name="message"></textarea>
-        </p>
-            <input type="submit" value="Send Form">
-    </form>
-
-   
+    <div class="container d-flex flex-row">
+    <div class="contact_form_box d-flex flex-column">
+            <h1 class="contact_form_h1">Contact Us Today</h1>
+            <p class="contact_us_p">Need to schedule your detail appointment or reserve a rental 
+                vehicle? Simply complete the form below to send us a message 
+                and one of our representatives will contact you soon.</p>
 
 
-<?php
-        if(!isset($_POST['submit']))
-        {
-            //This page should not be accessed directly. Need to submit the form.
-            echo "error; you need to submit the form!";
-        }
-        $first_name = $_POST['first_name'];
-        $visitor_email = $_POST['email'];
-        $message = $_POST['message'];
-
-        //Validate first
-        if(empty($name)||empty($visitor_email)) 
-        {
-            echo "Name and email are mandatory!";
-            exit;
-        }
-
-        if(IsInjected($visitor_email))
-        {
-            echo "Bad email value!";
-            exit;
-        }
-
-        $email_from = "Westhills Detail";//<== update the email address
-        $email_subject = "New Form submission";
-        $email_body = "You have received a new message from $name.\n".
-            "Here is the message:\n $message".
+            <form method="post" action="form_process.php">  
+            <div class="form_name_box d-flex flex-row">
+                <div class="form_input d-flex flex-column">
+                    <label class="name_feild form_h1">First Name</label>
+                    <input type="text" input name="firstName">
+                </div>
+                <div class=" form_input d-flex flex-column">
+                    <label class="name_feild form_h1">Last Name</label>
+                    <input type="text" input name="lastName">
+                </div>
             
-        $to = "Jmorrissette@haselwood.com";//<== update the email address
-        $headers = "From: $email_from \r\n";
-        $headers .= "Reply-To: $visitor_email \r\n";
-        //Send the email!
-        mail($to,$email_subject,$email_body,$headers);
-        //done. redirect to thank-you page.
-        header('Location: index.html');
+            </div>
+                <div class=" form_input2 d-flex flex-column">
+                    <label class="form_h1">Email Address</label>
+                    <input name="email">
+                </div>
 
-
-        // Function to validate against any email injection attempts
-        function IsInjected($str)
-        {
-        $injections = array('(\n+)',
-                    '(\r+)',
-                    '(\t+)',
-                    '(%0A+)',
-                    '(%0D+)',
-                    '(%08+)',
-                    '(%09+)'
-                    );
-        $inject = join('|', $injections);
-        $inject = "/$inject/i";
-        if(preg_match($inject,$str))
-            {
-            return true;
-        }
-        else
-            {
-            return false;
-        }
-        }
-        
-?> 
- 
+                <div class=" form_input2 d-flex flex-column">
+                    <label class="form_h1">Phone</label>
+                    <input name="phone">
+            </div>
+            
        
-        
+            <h1 class="form_h2">Type of Service</h1>
 
+            <div class="radio_group">
+                <input type="radio" id="detail" name="service" value="Detail" class="radio_btn">
+                <label class="service_label">Detail & Paint</label>
+                
+                <input type="radio" id="rental" name="service" value="Rental" class="radio_btn">
+                <label class="service_label">Rental Service</label>
+                
+                <input type="radio" id="windowTint" name="service" value="Window Tint" class="radio_btn">
+                <label class="service_label">Window Tint</label>
+                
+            </div>
+
+        <div class="form_name_box d-flex flex-column">
+            <label class="message_box form_h1">Message</label>
+            <textarea rows="5" cols="20" name="message"></textarea>
+
+       </div>
+            <p>For detail service please include information about your vehicle such as 
+                Year, Make, and Model. For rental please include vehicle size or need.</p>
+    
+            <input type="submit" name="submit" class="form_button" value="Contact Us Today">
+            
+        </form>
+        </div>
+        <div>
+            <div class="jumbotron-fluid">
+                <h1 class="display-4">Reserve Your Rental Today!</h1>
+                <p>Contact a helpful rental associate today.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div> 
+        </div> 
+    
+ 
+</div>   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
