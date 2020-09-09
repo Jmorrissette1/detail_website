@@ -32,7 +32,7 @@ if($_POST["submit"])  {
 
     mail($to, $subject, $body);
 
-    header('Location: thankyou.html');
+    header('Location: thank_you.html');
 }
 
 

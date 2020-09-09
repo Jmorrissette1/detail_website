@@ -69,7 +69,7 @@ a{
     background-image: url(img/test.png);
     background-size: cover;
     max-width: 100%;
-    height: 800px;
+    height: 750px;
 }
 
 .hero_header{
@@ -1356,10 +1356,10 @@ a{
 
 @media only screen and (max-width: 1200px){
     
-    .footer_box{
-        margin: 50px;
+ 
 }
-}
+
+
 @media only screen and (max-width: 600px) {
 
     .home_contianer{
@@ -1477,6 +1477,7 @@ a{
     }
 
     .toyota_rental_text_container{
+
         margin-left:25px;
         margin-right:25px;
         margin-top:25px;
@@ -1590,7 +1591,7 @@ a{
         width: 350px;
     }
     .detail_img{
-        width: 360px;
+        width: 100%;
     }
     .top_page_header{
         padding-left: 10px;
@@ -1609,7 +1610,7 @@ a{
         font-family: 'Montserrat', sans-serif; 
     }
     .detail_top_image{
-        width: 350px;
+        width: 100%;
         height:100%;
         
     }
@@ -1696,6 +1697,11 @@ a{
         margin-bottom: 50px;
     }
 
+    .add_button2{
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+
     .bottom_box{
         height:375px;
         flex-direction: column;
@@ -1712,7 +1718,7 @@ a{
         width: 165px;
         height: 45px;
         margin-top: 70px;
-        margin-left: 90px;
+        margin-left: 100px;
         
     }
     .detail_contact_button{
@@ -1723,6 +1729,156 @@ a{
         border-right: none;
 
     }
+
+    /************   Rental Page ***********/
+/**************************************/                                  
+/**************************************/
+/**************************************/
+
+.rental_card_container{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.rental_page_header{
+    width: 500px;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+}
+
+.top_rental_p{
+    margin-top: 30px;
+    width: 500px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+    
+}
+.rental_card_h1{
+    width: 1220px;
+    height: 40px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #343434;
+    opacity: 1;
+}
+.rental_card{
+    width:  535px;
+    height: 575px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(135, 140, 157, 0.2) 0px 1px 21px 0px;
+    
+
+}
+.rental_card_body{
+    border-top: 7px solid #d60812;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rental_card_text{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3px;
+    font-size:16px;
+    text-align: center;
+    color: #A5ABB4;
+}
+
+.rental_price{
+    text-align: center;
+    color: #D60812;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 25px;
+}
+
+.rental_card_sub_h{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #343434;
+    opacity: 1;
+}
+
+.rental_card_button{
+    margin-left: 150px;
+    width: 205px;
+    height: 45px;
+    background-color:#074167;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding:10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.rental_card_footer{
+    margin-top: 15px;
+    text-align: center;
+    font-size:16px;
+    color:#A5ABB4;
+    font-family: 'Montserrat', sans-serif;
+}
+.rental_reqs_a{
+    width: 811px;
+    height: 20px;
+    color: #D50812;
+}
+
+.rental_a_box{
+    background-color: #F7F7F7;
+    display: flex;
+    height: 130px;
+    padding-top:50px;
+    justify-content: center;
+}
+
+.rental_img{
+    width: 110px;
+    height: 50px;
+}
+
+.rental_text_box_container{
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  
+
+}
+
+.rental_text_box_h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.rental_text_box_p{
+   text-align: center;
+   margin-bottom: 25px;
+   font-size: 18px;
+   color:#343434;   
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+
 
 /************** Pages CSS *************/
 /**************************************/                                  
@@ -1739,8 +1895,9 @@ a{
 } 
 
 .page_text_h1{
+    text-align: center;
     margin-top:75px;
-    width: 500px;
+    width: 100%;
     color: #D60812;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -1750,10 +1907,9 @@ a{
 
 
 .page_text_box{
-
-    width: 600px;
-    margin-top:50px;
-    margin-bottom: 50px;
+    width: 360px;
+    margin-top:25px;
+    margin-bottom: 25px;
     margin-left: 10px;
 }
 .page_p1{
@@ -1774,7 +1930,7 @@ a{
 
 .wtint_law_h1{
     margin-right: 50px;
-    width: 501px;
+    width: 100%;
     height: 90px;
     text-align: left;
     font-size: 30px;
@@ -1785,21 +1941,22 @@ a{
 }
 
 .window_tint_p{
-    margin-left:25px;
-    width: 603px;
+    margin-left: 0;
+    width: 100%;
     text-align: left;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: #343434;
 }
 .window_tint_bottom_box{
+    flex-direction: column;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .window_tint_a{
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 0;
     text-align: left;
     text-decoration:underline;
     color: #D50812;
