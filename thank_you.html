@@ -10,7 +10,7 @@
     <!-- Custom CSS  -->
     
     <link rel="stylesheet" href="css/main.css">
-    <title>Westhills Detail</title>
+    <title>Westhills Detail & Rental</title>
   </head>
   <body>
    
