@@ -75,7 +75,8 @@
           </div>
         </nav>
     <!-- Contact Form -->
-    <div class="container d-flex flex-row">
+
+    <div class="container d-flex flex-row contact_form_container">
     <div class="contact_form_box d-flex flex-column">
             <h1 class="contact_form_h1">Contact Us Today</h1>
             <p class="contact_us_p">Need to schedule your detail appointment or reserve a rental 
@@ -120,12 +121,12 @@
                 
             </div>
 
-        <div class="form_name_box d-flex flex-column">
-            <label class="message_box form_h1">Message</label>
-            <textarea rows="5" cols="20" name="message"></textarea>
+        <div class="message_box d-flex flex-column">
+            <label class="form_h1">Message</label>
+            <textarea rows="5" cols="20" name="message" class="message_area"></textarea>
 
        </div>
-            <p>For detail service please include information about your vehicle such as 
+            <p class="form_disc">For detail service please include information about your vehicle such as 
                 Year, Make, and Model. For rental please include vehicle size or need.</p>
     
             <input type="submit" name="submit" class="form_button" value="Contact Us Today">
@@ -133,15 +134,44 @@
         </form>
         </div>
         <div>
-            <div class="jumbotron-fluid">
-                <h1 class="display-4">Reserve Your Rental Today!</h1>
-                <p>Contact a helpful rental associate today.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <div class="jumbotron sales_jumbotron">
+                <h1 class="display-4 sales_h1">Looking for a new vehicle?</h1>
+                <p class="sales_p">Contact a helpful sales associate today.</p>
+                <a class="btn btn-primary btn-lg sales_button" href="https://www.westhillsautoplex.com/" role="button">Contact West Hills Sales</a>
             </div> 
         </div> 
     
  
 </div>   
+
+      <!-- Footer -->
+      <div class="container-fluid justify-content-center footer">
+              <div class="footer_box ">
+                <img src="css/img/whd-logo-wht.png" class="footer_logo">
+              </div>
+              <div class="footer_box f3" id="f3">
+                <p class="footer_p">Detail Services</p>
+                <p class="footer_p">Shop Address</p>
+                <p class="footer_p">4949 Auto Center Blvd, </br> Bremerton, WA 98312</p>
+                <p class="footer_p"><a href=tel:360-616-3027> (360) 616-3027</a></p>
+              </div>
+              <div class="footer_box" id="f4">
+                  <p  class="footer_p">Rental Services</p>
+                  <p class="footer_p">Shop Address</p>
+                  <p class="footer_p">950 West Hills Blvd, </br>Bremerton, WA 98312</p>
+                  <p class="footer_p"><a href=tel:360-616-3036>(360) 616-3036</a></p>
+              </div>
+              <div>
+                <ul class="footer_box d-none d-md-block ">
+                  <li class="footer_list"><a href="detail.html">Detail</a></li>
+                  <li class="footer_list"><a href="rental.html">Rental</a></li>
+                  <li class="footer_list"><a href="location.html">Location</a></li>
+                </ul>
+              </div>
+          </div>
+          
+        
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

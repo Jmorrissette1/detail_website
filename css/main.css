@@ -1,5 +1,5 @@
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h4{
@@ -8,7 +8,7 @@ h4{
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -940,7 +940,7 @@ a{
 }
 
 
-/******       Location Page      ******/
+/******      Location Page      ******/
 /**************************************/                                  
 /**************************************/
 /**************************************/
@@ -1149,8 +1149,10 @@ a{
 /**************************************/
 
 .radio_group{
+    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
+
 }
 .form_input{
     margin-bottom: 20px;
@@ -1161,25 +1163,39 @@ a{
     margin-bottom: 20px;
     margin-right: 30px;
     width: 570px;
+    
 }
 .messsage_box{
+    margin-top: 100px;
+    width: 570px;
     height: 730px;
+}
+.message_area{
+    width: 570px;
 }
 .form_h1{
     font-weight: bold;
     font-size: 20px;
     color: #343434;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form_h2{
+
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 20px;
     color: #343434;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .contact_form_h1{
+    margin-bottom:25px;
+    text-align: left;
+    font-weight: 600;
     font-size: 50px;
     color: #343434;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .service_label{
@@ -1188,6 +1204,16 @@ a{
     text-align: left;
     font-size: 18px;
     color: #343434;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact_us_p{
+    margin-bottom: 60px;
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
 }
 .contact_form_box{
     width: 600px;
@@ -1197,7 +1223,23 @@ a{
     margin-top:7px;
 }
 
+.contact_form_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form_disc{
+
+    width: 580px;
+    height: 47px;
+    text-align: left;
+    margin-top: 15px;
+    letter-spacing: 0px;
+    color: #A5ABB4;
+
+}
 .form_button{
+    margin-top: 25px;
     width: 205px;
     height: 45px;
     background: #C70101 0% 0% no-repeat padding-box;
@@ -1207,6 +1249,43 @@ a{
     font-weight: 600;
     font-size: 16px;
     border: none;
+}
+
+.sales_jumbotron{
+    margin-left: 50px;
+    width: 502px;
+    height: 278px;
+
+}
+
+.sales_h1{
+    margin-top:0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #D60812;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sales_p{
+    margin-top: 25px;
+    color:#343434;
+    font-size: 18px;
+    
+}
+
+.sales_button{
+    margin-top: 15px;
+    width: 277px;
+    height: 45px;
+    background:  #D60812 0% 0% no-repeat padding-box;
+    border:none;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+
 }
 /* Normal Screens  */
 @media only screen and (max-width: 1440px) {
@@ -1644,6 +1723,90 @@ a{
         border-right: none;
 
     }
+
+/************** Pages CSS *************/
+/**************************************/                                  
+/**************************************/
+/**************************************/
+
+.pg_conatiner{
+    padding:0;
+}
+.page_container{
+    flex-direction: column;
+    background-color:#F7F7F7;
+
+} 
+
+.page_text_h1{
+    margin-top:75px;
+    width: 500px;
+    color: #D60812;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    
+}
+
+
+.page_text_box{
+
+    width: 600px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.page_p1{
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:22px;
+    font-weight: 600;
+    color: #5F5F5F;
+
+}
+
+.page_p2{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+}
+
+.wtint_law_h1{
+    margin-right: 50px;
+    width: 501px;
+    height: 90px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color:#D60812
+
+}
+
+.window_tint_p{
+    margin-left:25px;
+    width: 603px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+}
+.window_tint_bottom_box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.window_tint_a{
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: left;
+    text-decoration:underline;
+    color: #D50812;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
 
 /****** RENTAL REQUIREMENTS PAGE ******/
 /**************************************/                                  
