@@ -85,7 +85,7 @@
 
 
             <form method="post" action="form_process.php">  
-            <div class="form_name_box d-flex flex-row">
+            <div class="form_name_box">
                 <div class="form_input d-flex flex-column">
                     <label class="name_feild form_h1">First Name</label>
                     <input type="text" input name="firstName">
@@ -110,7 +110,8 @@
             <h1 class="form_h2">Type of Service</h1>
 
             <div class="radio_group">
-                <input type="radio" id="detail" name="service" value="Detail" class="radio_btn">
+              
+                <input type="radio" id="detail"  name="service" value="Detail" class="radio_btn" >
                 <label class="service_label">Detail & Paint</label>
                 
                 <input type="radio" id="rental" name="service" value="Rental" class="radio_btn">
@@ -134,7 +135,7 @@
         </form>
         </div>
         <div>
-            <div class="jumbotron sales_jumbotron">
+            <div class="jumbotron sales_jumbotron d-none d-md-block">
                 <h1 class="display-4 sales_h1">Looking for a new vehicle?</h1>
                 <p class="sales_p">Contact a helpful sales associate today.</p>
                 <a class="btn btn-primary btn-lg sales_button" href="https://www.westhillsautoplex.com/" role="button">Contact West Hills Sales</a>
