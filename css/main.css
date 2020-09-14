@@ -1113,6 +1113,44 @@ a{
     background-color:#F7F7F7;
 
 }
+
+/**************  Thank You   *************/
+/**************************************/
+/**************************************/
+/**************************************/
+
+.thank_you_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.confirm_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 214px;
+    height: 137px;
+}
+
+.thank_you_h1{
+    text-align: left;
+    margin-left: 250px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+}
+
+.thank_you_p{
+    width: 629px;
+    height: 69px;
+    margin-left: 250px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
 /**************  Footer    *************/
 /**************************************/
 /**************************************/
@@ -2242,6 +2280,29 @@ a{
         
         .footer_p{
             text-align: center;
+        }
+
+
+        /**************  Thank You   *************/
+        /**************************************/
+        /**************************************/
+        /**************************************/
+        
+        .thank_you_container{
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+        
+        .thank_you_h1{
+            margin-left: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .thank_you_p{
+            width: 330px;
+            height: 69px;
+            margin-left: 20px;
+            margin-bottom: 25px;
         }
      
   }
