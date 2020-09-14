@@ -2152,6 +2152,7 @@ a{
 #map{
     height: 355px;
     width: 330px;
+    margin-bottom: 20px;
 }
 
 .location_map{
@@ -2160,10 +2161,18 @@ a{
   
 }
 
+.location_hours_m{
+    width: 335px;
+    height: 82px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
 
+.hours_box_m{
+    width: 335px;
+    height: 173px;
 
-
-
+}
 .location_box_header{
     padding-top:50px;
     padding-left: 40px;
