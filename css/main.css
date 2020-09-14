@@ -1404,13 +1404,7 @@ a{
     
 }
 
-@media only screen and (max-width: 1200px){
-    
- 
-}
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
     .home_contianer{
         padding-left: 0;
@@ -1482,9 +1476,9 @@ a{
     }
     .detail_package_card{
         margin-top:15px;
-        margin-left: 12px;
+        margin-left: auto;
         margin-bottom: 10px;
-        margin-right:0;
+        margin-right:auto;
         width: 350px;
     }
     .card-title{
@@ -1545,9 +1539,9 @@ a{
     }
 
     .other_package_card{   
-        margin-left:10px;
-        margin-right:10px;
-        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        width: 350px;
         height: auto;
         text-align: left;
     }
@@ -2198,17 +2192,19 @@ a{
     height: 355px;
     width: 330px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .location_map{
     margin-top: 60px;
-    margin-left: 20px;
+    margin-left: 0;
   
 }
 
-.location_hours_m{
+.hours_box_m{
     width: 335px;
-    height: 82px;
+    height: 100px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -2229,6 +2225,13 @@ a{
 
 }
 
+.location_address_m{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 .location_button{
      width: 180px;
      height: 45px;
@@ -2243,6 +2246,44 @@ a{
 
 
 }
+
+.location_hours_m_box{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+.location_m_h1{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #343434;
+}
+
+.hours_m_h1{
+    padding-top:10px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hours_m_p1{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #343434;
+}
+
+
+
+
+
+
+
        /**************  Footer    *************/
         /**************************************/
         /**************************************/
