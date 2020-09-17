@@ -10,6 +10,7 @@
     <!-- Custom CSS  -->
     
     <link rel="stylesheet" href="css/main.css">
+    <script defer src="script.js"></script>
     <title>Westhills Detail & Rental</title>
   </head>
   <body>
@@ -75,7 +76,7 @@
           </div>
         </nav>
     <!-- Contact Form -->
-
+    <div id="error"></div>
     <div class="container d-flex flex-row contact_form_container">
     <div class="contact_form_box d-flex flex-column">
             <h1 class="contact_form_h1">Contact Us Today</h1>
@@ -84,11 +85,11 @@
                 and one of our representatives will contact you soon.</p>
 
 
-            <form method="post" action="form_process.php">  
+            <form method="post" action="form_process.php" id="contactForm">  
             <div class="form_name_box">
                 <div class="form_input d-flex flex-column">
-                    <label class="name_feild form_h1">First Name</label>
-                    <input type="text" input name="firstName">
+                    <label class="name_feild form_h1" >First Name</label>
+                    <input type="text" input name="firstName" id ="fistName">
                 </div>
                 <div class=" form_input d-flex flex-column">
                     <label class="name_feild form_h1">Last Name</label>
