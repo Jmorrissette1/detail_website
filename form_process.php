@@ -16,7 +16,7 @@ if(isset($_POST['email']) && $_POST['email'] !=''){
         $body="";
     
        
-        $body .="Frist: " . $first ."\r\n";
+        $body .="first: " . $first ."\r\n";
         $body .="Last: " . $last. "\r\n";
         $body .="Email: " . $senderEmail. "\r\n";
         $body .="Phone Number: " . $senderPhone. "\r\n";
