@@ -12,7 +12,7 @@ if(isset($_POST['email']) && $_POST['email'] !=''){
         $serviceType=$_POST["service"];
         $message=$_POST["message"];
     
-        $to ="j.morrissette47@gmail.com";
+        $to ="jmorrissette@haselwood.com";
         $body="";
     
        
@@ -30,6 +30,3 @@ if(isset($_POST['email']) && $_POST['email'] !=''){
     }
     
 }
-
-
-?>
