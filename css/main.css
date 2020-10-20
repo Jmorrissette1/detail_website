@@ -17,9 +17,15 @@ a {
 }
 
 /* 4k Screens */
-
+#nav {
+  position: fixed;
+  width: 100%;
+}
 .nav_bar {
   height: 90px;
+  top: 50px;
+  position: fixed;
+  width: 100%;
 }
 
 .brand_text {
