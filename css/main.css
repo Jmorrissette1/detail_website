@@ -20,12 +20,14 @@ a {
 #nav {
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 .nav_bar {
   height: 90px;
   top: 50px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .brand_text {
