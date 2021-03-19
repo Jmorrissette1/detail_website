@@ -1,14 +1,16 @@
-h1 {
+* {
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
 }
 
 h4 {
   text-align: center;
   margin-top: 20px;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -18,16 +20,38 @@ a {
 
 /* 4k Screens */
 #nav {
+  top: 0;
   position: fixed;
   width: 100%;
   z-index: 2;
 }
-.nav_bar {
+.nav-bar {
   height: 90px;
-  top: 50px;
+
   position: fixed;
   width: 100%;
   z-index: 2;
+}
+.alert {
+  margin-top: 200px;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
 
 .brand_text {
@@ -1336,7 +1360,7 @@ a {
     text-align: center;
   }
 
-  .nav_bar {
+  .nav-bar {
     height: auto;
   }
 
