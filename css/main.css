@@ -87,7 +87,6 @@ a {
   height: 45px;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
 }
 /************** HOME PAGE *************/
 /**************************************/
@@ -108,7 +107,6 @@ a {
   font: 80px;
   padding-left: 300px;
   padding-top: 125px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .hero_text {
@@ -120,7 +118,6 @@ a {
   color: #ffffff;
   text-align: left;
   font: bold 20px;
-  font-family: "Montserrat", sans-serif;
 }
 .hero_button {
   margin-left: 300px;
@@ -131,7 +128,6 @@ a {
   padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
   background-color: #c70101;
   border: none;
 }
@@ -177,14 +173,12 @@ a {
   color: #d60812;
   font-size: 30px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 .card-text {
   margin-top: 10px;
   margin-bottom: 35px;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
   opacity: 1;
 }
@@ -196,7 +190,6 @@ a {
   width: 193px;
   height: 45px;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   border: none;
@@ -234,20 +227,17 @@ a {
   height: 121px;
   font-weight: 600;
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .toyota_rental_sub_header {
   margin-top: 25px;
   font-weight: 600;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 .toyota_rental_text {
   margin-top: 25px;
   font-size: 18px;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #343434;
   opacity: 1;
@@ -259,7 +249,6 @@ a {
   text-align: center;
   font-size: 50px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #383838;
 }
@@ -277,7 +266,6 @@ a {
   color: #d60812;
   font-size: 30px;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
 }
 
 .other_services_button {
@@ -287,7 +275,6 @@ a {
   width: 193px;
   height: 45px;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   border: none;
@@ -300,7 +287,6 @@ a {
   width: 193px;
   height: 45px;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   border: none;
@@ -334,7 +320,6 @@ a {
   text-align: left;
   font-weight: 600;
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -376,7 +361,6 @@ a {
   width: 500px;
   color: #d60812;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -388,7 +372,6 @@ a {
 }
 .page_p1 {
   margin-bottom: 25px;
-  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #5f5f5f;
@@ -397,7 +380,6 @@ a {
 .page_p2 {
   text-align: left;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   margin-top: 25px;
 }
 
@@ -408,7 +390,6 @@ a {
   text-align: left;
   font-size: 30px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
   color: #d60812;
 }
 
@@ -417,7 +398,6 @@ a {
   width: 603px;
   text-align: left;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 .window_tint_bottom_box {
@@ -433,7 +413,6 @@ a {
   color: #d50812;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
 }
 
 /************   Rental Page ***********/
@@ -453,7 +432,6 @@ a {
   text-align: left;
   font-size: 50px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 
@@ -468,7 +446,6 @@ a {
   width: 500px;
   text-align: left;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 .rental_card_h1 {
@@ -476,7 +453,6 @@ a {
   height: 40px;
   margin-top: 75px;
   margin-bottom: 75px;
-  font-family: "Montserrat", sans-serif;
   margin-left: 25px;
   text-align: center;
   font-size: 50px;
@@ -498,7 +474,6 @@ a {
 }
 
 .rental_card_text {
-  font-family: "Montserrat", sans-serif;
   margin-bottom: 3px;
   font-size: 16px;
   text-align: center;
@@ -508,13 +483,11 @@ a {
 .rental_price {
   text-align: center;
   color: #d60812;
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 25px;
 }
 
 .rental_card_sub_h {
-  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 18px;
   color: #343434;
@@ -528,7 +501,6 @@ a {
   background-color: #074167;
   border: none;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
   padding: 10px;
   font-size: 16px;
   text-align: center;
@@ -539,13 +511,11 @@ a {
   text-align: center;
   font-size: 16px;
   color: #a5abb4;
-  font-family: "Montserrat", sans-serif;
 }
 .rental_reqs_a {
   width: 811px;
   height: 20px;
   color: #d50812;
-  font-family: "Montserrat", sans-serif;
 }
 
 .rental_a_box {
@@ -580,7 +550,6 @@ a {
   margin-bottom: 25px;
   font-size: 18px;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 
 /****** RENTAL REQUIREMENTS PAGE ******/
@@ -595,7 +564,6 @@ a {
 
 .rental_req_text {
   margin-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   letter-spacing: 0px;
   color: #343434;
@@ -609,7 +577,6 @@ a {
   letter-spacing: 0px;
   color: #343434;
   opacity: 1;
-  font-family: "Montserrat", sans-serif;
 }
 .rental_req_text_box {
   width: 600px;
@@ -622,7 +589,6 @@ a {
   opacity: 1;
   font-weight: 500;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 .rental_req_box_header {
   padding-top: 50px;
@@ -639,7 +605,6 @@ a {
   font-weight: 700;
   letter-spacing: 0px;
   color: #d60812;
-  font-family: "Montserrat", sans-serif;
 }
 .rental_reqs_jumbotron {
   background-color: #f7f7f7;
@@ -656,7 +621,6 @@ a {
   background-color: #d60812;
   border: none;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .rental_reqs_button:hover {
@@ -694,13 +658,11 @@ a {
   height: 121px;
   font-weight: 600;
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
 }
 .top_detail_p {
   width: 450px;
   text-align: left;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 .detail_top_image {
   width: 600px;
@@ -714,7 +676,6 @@ a {
   font-weight: 500;
   color: #343434;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 .full_detail_box {
   justify-content: center;
@@ -734,7 +695,6 @@ a {
 }
 .detail_card_box_header {
   margin-bottom: 55px;
-  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 500;
   text-align: left;
@@ -751,7 +711,6 @@ a {
 }
 
 .detail-card-title {
-  font-family: "Montserrat", sans-serif;
   color: #074167;
   text-align: left;
   font-weight: bold;
@@ -761,7 +720,6 @@ a {
 .price {
   margin-top: 20px;
   margin-right: 10px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 25px;
   letter-spacing: 0px;
@@ -771,14 +729,12 @@ a {
 .price_pkg {
   margin-top: 20px;
   margin-right: 20px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #a5abb4;
 }
 
 .detail_disclaimer {
-  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   letter-spacing: 0px;
   color: #a5abb4;
@@ -796,7 +752,6 @@ a {
 .detail_box_h1 {
   text-align: left;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #343434;
   opacity: 1;
@@ -804,7 +759,6 @@ a {
 
 .detail_text_p {
   text-align: left;
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0px;
@@ -821,7 +775,6 @@ a {
   margin-top: 80px;
   margin-bottom: 50px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   font-size: 50px;
   font-weight: 600;
   color: #343434;
@@ -840,7 +793,6 @@ a {
   height: 37px;
   font-size: 30px;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #d60812;
   opacity: 1;
@@ -851,7 +803,6 @@ a {
   width: 499px;
   height: 82px;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   letter-spacing: 0px;
   color: #343434;
@@ -862,7 +813,6 @@ a {
   text-align: left;
   font-size: 25px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 0px;
   color: #d60812;
 }
@@ -875,7 +825,6 @@ a {
   padding: 10px;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
   border: none;
 }
 
@@ -887,7 +836,6 @@ a {
   background-color: #074167;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
   border: none;
 }
 
@@ -902,7 +850,6 @@ a {
   text-align: left;
   font-size: 50px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   color: #ffffff;
 }
 
@@ -950,11 +897,9 @@ a {
   text-align: left;
   font-weight: 600;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 .location_hours {
-  font-family: "Montserrat", sans-serif;
   text-align: left;
   font-size: 18px;
   color: #343434;
@@ -962,7 +907,6 @@ a {
 
 .location_h1 {
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-align: left;
   color: #343434;
@@ -990,7 +934,6 @@ a {
   text-align: left;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 
@@ -998,7 +941,6 @@ a {
   text-align: left;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   color: #d50812;
 }
 
@@ -1008,7 +950,6 @@ a {
   text-align: left;
   font-size: 30px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
   color: #d60812;
 }
 
@@ -1021,7 +962,6 @@ a {
   background-color: #d60812;
   font-weight: 600;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   border: none;
 }
 
@@ -1034,7 +974,6 @@ a {
   width: 600px;
   text-align: left;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   font-size: 50px;
   color: #343434;
 }
@@ -1044,7 +983,6 @@ a {
   width: 600px;
   text-align: left;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 
@@ -1053,7 +991,6 @@ a {
   text-align: left;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   color: #d60812;
 }
@@ -1062,7 +999,6 @@ a {
   font-weight: 600;
   font-size: 18px;
   color: #343433;
-  font-family: "Montserrat", sans-serif;
 }
 
 .window_tint_law_tb2 {
@@ -1102,7 +1038,6 @@ a {
   margin-bottom: 25px;
   font-weight: 600;
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
   color: #343434;
 }
 
@@ -1112,7 +1047,6 @@ a {
   margin-left: 250px;
   margin-bottom: 25px;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 /**************  Footer    *************/
 /**************************************/
@@ -1139,13 +1073,11 @@ a {
   text-align: left;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   opacity: 1;
 }
 
 .footer_p {
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -1186,7 +1118,6 @@ a {
   font-weight: bold;
   font-size: 20px;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 
 .form_h2 {
@@ -1194,7 +1125,6 @@ a {
   font-weight: bold;
   font-size: 20px;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 
 .contact_form_h1 {
@@ -1203,7 +1133,6 @@ a {
   font-weight: 600;
   font-size: 50px;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 
 .service_label {
@@ -1212,7 +1141,6 @@ a {
   text-align: left;
   font-size: 18px;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 
 .contact_us_p {
@@ -1221,7 +1149,6 @@ a {
   letter-spacing: 0px;
   font-size: 18px;
   color: #343434;
-  font-family: "Montserrat", sans-serif;
 }
 .contact_form_box {
   width: 600px;
@@ -1268,7 +1195,6 @@ a {
   font-size: 30px;
   font-weight: 500;
   color: #d60812;
-  font-family: "Montserrat", sans-serif;
 }
 .sales_p {
   margin-top: 25px;
@@ -1286,7 +1212,6 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
   color: #ffffff;
 }
 /* Normal Screens  */
@@ -1298,7 +1223,6 @@ a {
     padding-left: 100px;
     max-width: 700px;
     padding-top: 100px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .hero_text {
