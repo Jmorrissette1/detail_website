@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
@@ -1215,7 +1217,7 @@ a {
   color: #ffffff;
 }
 /* Normal Screens  */
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 1479px) {
   .hero_header {
     color: #ffffff;
     font-weight: 600;
@@ -1234,7 +1236,6 @@ a {
     color: #ffffff;
     text-align: left;
     font: bold 20px;
-    font-family: "Montserrat", sans-serif;
   }
   .hero_button {
     margin-left: 100px;
@@ -1273,7 +1274,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   .home_contianer {
     padding-left: 0;
     padding-right: 0;
@@ -1299,7 +1300,6 @@ a {
     height: 129px;
     text-align: left;
     font: 800;
-    font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -1315,7 +1315,6 @@ a {
     width: 335px;
     height: 112px;
     font: bold;
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
   }
 
@@ -1350,7 +1349,6 @@ a {
     color: #d60812;
     font-size: 20px;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
   }
 
   .card_button {
@@ -1388,7 +1386,6 @@ a {
     height: auto;
     font-weight: 600;
     font-size: 35px;
-    font-family: "Montserrat", sans-serif;
   }
 
   /* other servies box*/
@@ -1410,7 +1407,6 @@ a {
   .other-services-title {
     color: #d60812;
     font-size: 30px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .other_services_button {
@@ -1420,7 +1416,6 @@ a {
     width: 193px;
     height: 45px;
     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
     color: #ffffff;
     border: none;
@@ -1496,7 +1491,6 @@ a {
     width: 350px;
     text-align: left;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
   }
   .detail_top_image {
     width: 100%;
@@ -1709,7 +1703,6 @@ a {
     width: 100%;
     color: #d60812;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
     font-size: 30px;
   }
 
@@ -1721,7 +1714,6 @@ a {
   }
   .page_p1 {
     margin-bottom: 25px;
-    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 600;
     color: #5f5f5f;
@@ -1730,7 +1722,6 @@ a {
   .page_p2 {
     text-align: left;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
     margin-top: 25px;
   }
 
@@ -1741,7 +1732,6 @@ a {
     text-align: left;
     font-size: 30px;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
     color: #d60812;
   }
 
@@ -1750,7 +1740,6 @@ a {
     width: 100%;
     text-align: left;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
     color: #343434;
   }
   .window_tint_bottom_box {
@@ -1767,7 +1756,6 @@ a {
     color: #d50812;
     font-size: 18px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
   }
 
   /****** RENTAL REQUIREMENTS PAGE ******/
@@ -1819,7 +1807,6 @@ a {
     font-weight: 700;
     letter-spacing: 0px;
     color: #d60812;
-    font-family: "Montserrat", sans-serif;
   }
   .rental_reqs_jumbotron {
     margin-left: 10px;
@@ -1834,7 +1821,6 @@ a {
     background-color: #d60812;
     border: none;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .rental_reqs_button:hover {
@@ -1886,7 +1872,6 @@ a {
     font-weight: bold;
     font-size: 20spx;
     color: #343434;
-    font-family: "Montserrat", sans-serif;
   }
 
   .form_h2 {
@@ -1894,7 +1879,6 @@ a {
     font-weight: bold;
     font-size: 20px;
     color: #343434;
-    font-family: "Montserrat", sans-serif;
   }
 
   .contact_form_h1 {
@@ -1907,7 +1891,6 @@ a {
     text-align: left;
     font-size: 18px;
     color: #343434;
-    font-family: "Montserrat", sans-serif;
   }
 
   .contact_us_p {
@@ -1986,11 +1969,9 @@ a {
     text-align: left;
     font-weight: 600;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
     color: #343434;
   }
   .location_hours {
-    font-family: "Montserrat", sans-serif;
     text-align: left;
     font-size: 18px;
     color: #343434;
@@ -1998,7 +1979,6 @@ a {
 
   .location_h1 {
     font-size: 50px;
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-align: left;
     color: #343434;
@@ -2034,14 +2014,12 @@ a {
     text-align: left;
     font-size: 30px;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
     color: #d60812;
   }
 
   .location_address_m {
     text-align: left;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .location_button {
@@ -2053,7 +2031,6 @@ a {
     background-color: #d60812;
     font-weight: 600;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
     border: none;
   }
 
@@ -2076,13 +2053,11 @@ a {
     font-weight: 600;
     font-size: 18px;
     color: #343434;
-    font-family: "Montserrat", sans-serif;
   }
 
   .hours_m_p1 {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #343434;
   }
@@ -2115,7 +2090,6 @@ a {
     text-align: left;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     opacity: 1;
   }
@@ -2144,5 +2118,8 @@ a {
     height: 69px;
     margin-left: 20px;
     margin-bottom: 25px;
+  }
+  .alert {
+    margin-top: 100px;
   }
 }
